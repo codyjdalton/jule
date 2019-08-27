@@ -1,19 +1,19 @@
 {
-  "name": "jule",
+  "name": "toolkit",
   "version": "0.1.0",
   "description": "",
   "main": "/lib/program.js",
   "preferGlobal": true,
   "bin": "./lib/program.js",
   "dependencies": {
-    "commander": "^2.15.1",
-    "inquirer": "^5.2.0"
+    "commander": "^3.0.0",
+    "inquirer": "^7.0.0"
   },
   "devDependencies": {
-    "chai": "*",
-    "coveralls": "*",
-    "mocha": "*",
-    "nyc": "*"
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.6",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
   },
   "scripts": {
     "global": "npm link",
